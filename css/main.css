@@ -1,0 +1,56 @@
+body {
+  background: #272727;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row;
+}
+
+.container .button {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4px 6px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.container .button-click {
+  background-color: #fff;
+  border: 2px solid #4CAF50;
+}
+
+.container .button-click:hover {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.container .button-reset {
+  background-color: #fff;
+  border: 2px solid #f44336;
+}
+
+.container .button-reset:hover {
+  background-color: #f44336;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
